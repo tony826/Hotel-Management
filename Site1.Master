@@ -1,0 +1,34 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="Hotel_Management.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <br />
+            <asp:Menu ID="Menu1" runat="server" BackColor="#99CCFF" ForeColor="White" Height="40px" Orientation="Horizontal" Width="100%">
+                <Items>
+                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/home.aspx"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/book.aspx" Text="Book Rooms" Value="Book Rooms"></asp:MenuItem>
+                    <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="~/edit.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="About" Value="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Log Out" Value="Log Out" NavigateUrl="~/login.aspx"></asp:MenuItem>
+                </Items>
+                <StaticMenuItemStyle HorizontalPadding="55px" ItemSpacing="80px" />
+                <StaticMenuStyle HorizontalPadding="35px" VerticalPadding="10px" />
+            </asp:Menu>
+            <br />
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
