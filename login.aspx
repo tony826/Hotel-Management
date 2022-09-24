@@ -46,6 +46,9 @@
 <body>
     <form id="form1" runat="server">
         <div id ="d1">
+            <br />
+                        <marquee><h2>Hotel Royal Galaxy</h2></marquee>
+            <br />
             <marquee><h1>Login Page</h1></marquee>
             <table align="center" class="auto-style1">
                 <tr>

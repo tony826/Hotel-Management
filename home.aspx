@@ -2,13 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div>
 
 <style>
         #div1{
             border : 2px solid black;
             background-color : blueviolet;
-            height:900px;
+            height:700px;
             width:auto;
             background-repeat:no-repeat;
             background-image: url("https://source.unsplash.com/1600x900/?hotels");
@@ -43,21 +42,30 @@
             background-color : blueviolet;
             height:300px;
             width:800px;
-            background-image:url("Standard.png");
+            background-image:url("luxurious.jpg");
             background-size:cover;
             background-repeat:no-repeat;
         }
+       
     .auto-style1 {
         font-size: x-large;
     }
     .auto-style2 {
         text-align: center;
     }
+    .auto-style3 {
+        font-weight: bold;
+        font-size: x-large;
+        background-color:transparent;
+    }
     </style>
     <div id="div1" class="auto-style2">
         <br />
         <strong>
         <asp:Label ID="Label4" runat="server" CssClass="auto-style1" ForeColor="#6699FF"></asp:Label>
+        <br />
+        <br />
+        <asp:Button ID="Button1" runat="server" ForeColor="Red" Height="47px" Text="LogIn" Width="114px" CssClass="auto-style3" />
         </strong>
     <div id="div2" class="auto-style2">
 
@@ -85,11 +93,5 @@
             </strong>
 
     </div>
-        
-
-    </div>
-        <br />
-
-
-    </div>
+   </div>
 </asp:Content>

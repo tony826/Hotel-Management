@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>RoyalGalaxy</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -13,12 +13,14 @@
         <div>
 
             <br />
+                        <marquee><h2>Hotel Royal Galaxy</h2></marquee>
+            <br />
+
             <asp:Menu ID="Menu1" runat="server" BackColor="#99CCFF" ForeColor="White" Height="40px" Orientation="Horizontal" Width="100%">
                 <Items>
                     <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/home.aspx"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/book.aspx" Text="Book Rooms" Value="Book Rooms"></asp:MenuItem>
                     <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="~/edit.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="About" Value="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Log Out" Value="Log Out" NavigateUrl="~/login.aspx"></asp:MenuItem>
                 </Items>
                 <StaticMenuItemStyle HorizontalPadding="55px" ItemSpacing="80px" />

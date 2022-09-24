@@ -28,14 +28,18 @@
                 <Items>
                     <asp:MenuItem Text="Add Rooms" Value="Home" NavigateUrl="~/addroom.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Bookings" Value="Bookings" NavigateUrl="~/bokking.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="~/edit.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="About" Value="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="~/chng.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Log Out" Value="Log Out" NavigateUrl="~/lg.aspx"></asp:MenuItem>
                 </Items>
                 <StaticMenuItemStyle HorizontalPadding="80px" ItemSpacing="200px" />
                 <StaticMenuStyle HorizontalPadding="100px" VerticalPadding="10px" />
                 <StaticSelectedStyle ItemSpacing="50px" />
             </asp:Menu>
+                <br />
+                <br />
+                            <marquee><h2>Hotel Royal Galaxy</h2></marquee>
+                <br />
+                <br />
        <marquee> <h2>
         <asp:Label ID="lbl1" runat="server" Text=""></asp:Label>
         </h2></marquee>
@@ -95,33 +99,6 @@
                         </UpdateParameters>
                     </asp:SqlDataSource>
                 </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
         </div>
     </form>
 </body>

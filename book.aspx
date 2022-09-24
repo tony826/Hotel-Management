@@ -1,32 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="book.aspx.vb" Inherits="Hotel_Management.home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style1 {
-            text-align: center;
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
-            width : 1600px;
-            height:900px;
-        }
         /*img{
             width : 100vw;
             height : 100vh;
         }*/
-        .auto-style4 {
-            width: 60%;
-            height: 827px;
-        }
-        .auto-style5 {
-            font-size: xx-large;
-        }
-        .auto-style6 {
-            text-align: left;
-        }
-        .auto-style7 {
-            font-size: xx-large;
-            margin-left: 294px;
-            font-weight: bold;
-        }
-
+        
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -128,8 +107,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style6" colspan="2">&nbsp;<asp:TextBox ID="TextBox5" runat="server" Visible="False"></asp:TextBox>
-                    <strong>&nbsp;<asp:Button ID="Button1" runat="server" CssClass="auto-style7" Height="63px" Text="Book Room" Width="263px" ForeColor="Red" />
+                <td class="auto-style6" colspan="2">&nbsp;<asp:TextBox ID="TextBox5" runat="server" Visible="False" Width="136px"></asp:TextBox>
+                    <strong>&nbsp;<asp:Button ID="Button1" runat="server" Height="35px" Text="Book" Width="103px" />
                     </strong></td>
             </tr>
         </table>

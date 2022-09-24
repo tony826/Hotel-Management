@@ -5,4 +5,7 @@
         Label4.Text = "Hello  " + Session("unm")
     End Sub
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("~/login.aspx")
+    End Sub
 End Class

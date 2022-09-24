@@ -77,6 +77,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <br />
+                        <marquee><h1>Hotel Royal Galaxy</h1></marquee>
+            <br />
            <marquee><h1>Registration Page</h1></marquee>
             <table align="center" class="auto-style1">
                 <tr>
@@ -158,28 +161,6 @@
                 </tr>
             </table>
 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
     </form>
 </body>

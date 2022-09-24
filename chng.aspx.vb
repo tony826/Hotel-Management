@@ -1,5 +1,5 @@
 ﻿Imports System.Data.SqlClient
-Public Class edit
+Public Class chng
 
     Inherits System.Web.UI.Page
 
@@ -14,8 +14,8 @@ Public Class edit
 
         Dim cmd As New SqlCommand("select count(unm) from usr where unm = '" + TextBox1.Text + "' and pass = '" + TextBox2.Text + "'", cn)
             cn.Open()
-        Dim chk As Integer = cmd.ExecuteScalar()
-        cn.Close()
+            Dim chk As Integer = cmd.ExecuteScalar()
+            cn.Close()
             If chk > 0 Then
                 Dim cmd1 As New SqlCommand("update usr set pass = '" + TextBox3.Text + "' where unm = '" + TextBox1.Text + "'", cn)
                 cn.Open()

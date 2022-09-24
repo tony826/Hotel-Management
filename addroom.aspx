@@ -43,13 +43,14 @@
                     <asp:MenuItem Text="Add Rooms" Value="Add Rooms" NavigateUrl="~/addroom.aspx"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/mngs.aspx" Text="Home" Value="New Item"></asp:MenuItem>
                     <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="~/edit.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="About" Value="About" NavigateUrl="~/about.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Log Out" Value="Log Out"></asp:MenuItem>
                 </Items>
                 <StaticMenuItemStyle HorizontalPadding="55px" ItemSpacing="80px" />
                 <StaticMenuStyle HorizontalPadding="35px" VerticalPadding="10px" />
             </asp:Menu>
                 <br />
+                <br />
+            <marquee><h2>Hotel Royal Galaxy</h2></marquee>
             <h2><strong>
               <mariquee> <asp:Label ID="Label1" runat="server"></asp:Label></mariquee> 
                 </strong></h2>
