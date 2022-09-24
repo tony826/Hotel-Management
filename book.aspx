@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="book.aspx.vb" Inherits="Hotel_Management.home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        /*img{
-            width : 100vw;
-            height : 100vh;
-        }*/
+        div{
+            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-size:cover;
+            /*height:900px;*/
+        }
         
         </style>
 </asp:Content>

@@ -7,6 +7,11 @@
     <title>RoyalGalaxy</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -16,7 +21,9 @@
                         <marquee><h2>Hotel Royal Galaxy</h2></marquee>
             <br />
 
-            <asp:Menu ID="Menu1" runat="server" BackColor="#99CCFF" ForeColor="White" Height="40px" Orientation="Horizontal" Width="100%">
+            <strong>
+
+            <asp:Menu ID="Menu1" runat="server" BackColor="#99CCFF" ForeColor="Red" Height="40px" Orientation="Horizontal" Width="100%" CssClass="auto-style1">
                 <Items>
                     <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/home.aspx"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/book.aspx" Text="Book Rooms" Value="Book Rooms"></asp:MenuItem>
@@ -26,6 +33,7 @@
                 <StaticMenuItemStyle HorizontalPadding="55px" ItemSpacing="80px" />
                 <StaticMenuStyle HorizontalPadding="35px" VerticalPadding="10px" />
             </asp:Menu>
+            </strong>
             <br />
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
