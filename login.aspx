@@ -75,7 +75,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style5" colspan="2">
-                        <asp:Button ID="Button1" runat="server" CssClass="auto-style3" Height="47px" Text="Button" Width="191px" BackColor="#99FF99" Font-Bold="True" ForeColor="Black" />
+                        <asp:Button ID="Button1" runat="server" CssClass="auto-style3" Height="47px" Text="Log In" Width="191px" BackColor="#99FF99" Font-Bold="True" ForeColor="Black" />
                     </td>
                 </tr>
                 <tr>

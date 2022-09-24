@@ -130,6 +130,7 @@
     <Content Include="edit.aspx" />
     <Content Include="book.aspx" />
     <Content Include="home.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="lg.aspx" />
     <Content Include="login.aspx" />
     <Content Include="mngs.aspx" />
@@ -182,6 +183,13 @@
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="hotel.vb" />
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="lg.aspx.designer.vb">
       <DependentUpon>lg.aspx</DependentUpon>
     </Compile>

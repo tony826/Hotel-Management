@@ -1,16 +1,19 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="home.aspx.vb" Inherits="Hotel_Management.home1" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="index.aspx.vb" Inherits="Hotel_Management.index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
 
 <style>
         #div1{
-            border : 2px solid black;
+            
             background-color : blueviolet;
             height:100%;
             width:auto;
             background-repeat:no-repeat;
-            background-image: url("https://source.unsplash.com/1600x900/?hotels");
+            background-image: url("https://source.unsplash.com/1600x900/?indoor");
             background-size:cover;
             display:flex;
             padding:80px;
@@ -26,6 +29,7 @@
             background-image:url("Standard.png");
             background-size:cover;
             background-repeat:no-repeat;
+            text-align:center;
         }
         #div3{
             border : 2px solid black;
@@ -36,6 +40,7 @@
             background-size:cover;
             background-repeat:no-repeat;
             margin:267px 30px;
+            text-align:center;
         }
         #div4{
             margin:267px 30px;
@@ -46,16 +51,31 @@
             background-image:url("luxurious.jpg");
             background-size:cover;
             background-repeat:no-repeat;
+            text-align:center;
         }
        
     .auto-style1 {
-        font-size: x-large;
+        font-size: xx-large;
     }
     .auto-style2 {
         text-align: center;
     }
+    .divv{
+        background-color:burlywood;
+        text-align : center;
+    }
+    .auto-style3 {
+        font-weight: bold;
+        font-size: x-large;
+        background-color:transparent;
+        margin-left: 516px;
+    }
     </style>
-    
+</head>
+    <body>
+        <form id="form1" runat="server">
+
+        <asp:Button ID="Button1" runat="server" CssClass="auto-style3" ForeColor="#6600CC" Height="55px" Text="Click Here To Login" Width="317px" BorderStyle="None" />
     <div id="div1" class="auto-style2">
         <br />
         <strong>
@@ -64,19 +84,29 @@
         </strong>
         <div id="div2" class="auto-style2">
 
-        <br />
-        <br />
-
         <strong>
-        <asp:Label ID="Label1" runat="server" CssClass="auto-style1" ForeColor="#6699FF" Text="Standard"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style1" ForeColor="aqua" Text="Standard"></asp:Label>
         </strong>
 
     </div>
-        <div id="div3" class="auto-style2">
-
-            <br />
+        <div id="div3">
+            
             <strong>
-            <asp:Label ID="Label2" runat="server" CssClass="auto-style1" ForeColor="#6699FF" Text="Deluxe"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Label ID="Label2" runat="server" CssClass="auto-style1" ForeColor="dodgerblue" Text="Deluxe"></asp:Label>
             </strong>
             
     </div>
@@ -84,9 +114,18 @@
 
             <strong>
             <br />
-            <asp:Label ID="Label3" runat="server" CssClass="auto-style1" ForeColor="#6699FF" Text="Luxurious"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <asp:Label ID="Label3" runat="server" CssClass="auto-style1" ForeColor="#def702" Text="Luxurious"></asp:Label>
             </strong>
 
     </div>
    </div>
-</asp:Content>
+        </form>
+    </body>
+</html>

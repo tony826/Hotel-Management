@@ -26,8 +26,8 @@ Public Class Reg
         Dim cmd As New SqlCommand("insert into usr values('" + TextBox1.Text + "','" + TextBox2.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "')", cn)
             cn.Open()
             cmd.ExecuteNonQuery()
-            MsgBox("Registered Successfully")
-            Response.Redirect("~/login.aspx")
+        'MsgBox("Registered Successfully")
+        Response.Redirect("~/login.aspx")
 
 
     End Sub
@@ -41,7 +41,4 @@ Public Class Reg
 
     End Sub
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-    End Sub
 End Class

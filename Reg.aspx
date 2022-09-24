@@ -38,8 +38,10 @@
         }
         div{
             
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-image: url("https://source.unsplash.com/1600x900/?hotel");
+            background-size:cover;
             
+            background-repeat:no-repeat;
         }
         .txt{
             border:5px solid black;
@@ -160,7 +162,7 @@
                     </td>
                 </tr>
             </table>
-
+            <br />
         </div>
     </form>
 </body>
