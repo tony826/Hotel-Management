@@ -60,10 +60,10 @@
     .auto-style2 {
         text-align: center;
     }
-    .divv{
+    /*.divv{
         background-color:burlywood;
         text-align : center;
-    }
+    }*/
     .auto-style3 {
         font-weight: bold;
         font-size: x-large;

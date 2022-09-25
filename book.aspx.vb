@@ -23,7 +23,7 @@ Public Class home
         cn.Open()
         cmd1.ExecuteNonQuery()
         Dim cmd As New SqlCommand("update hotel set st = '" + "Booked" + "' where rno = '" + DropDownList2.Text + "'", cn)
-        Dim cmd2 As New SqlCommand("update hotel set checkin = '" + TextBox3.Text.ToString() + "',checkout = '" + TextBox4.Text.ToString() + "' where rno = '" + DropDownList2.Text + "'", cn)
+        Dim cmd2 As New SqlCommand("update hotel set checkin = '" + CType(TextBox4.Text.ToString(), Date) + "',checkout = '" + CType(TextBox4.Text.ToString(), Date) + "' where rno = '" + DropDownList2.Text + "'", cn)
         cmd.ExecuteNonQuery()
         cmd2.ExecuteNonQuery()
         Dim cmdd As New SqlCommand("update hotel set cost = '" + TextBox5.Text + "'  where rno = '" + DropDownList2.Text + "'", cn)

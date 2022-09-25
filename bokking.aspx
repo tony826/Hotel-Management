@@ -48,8 +48,8 @@
                         <asp:BoundField DataField="mobile" HeaderText="Mobile" SortExpression="mobile" />
                         <asp:BoundField DataField="rtype" HeaderText="Room Type" SortExpression="rtype" />
                         <asp:BoundField DataField="rno" HeaderText="Room No." SortExpression="rno" />
-                        <asp:BoundField DataField="checkin" HeaderText="Check In" SortExpression="checkin" />
-                        <asp:BoundField DataField="checkout" HeaderText="Check Out" SortExpression="checkout" />
+                        <asp:BoundField DataField="checkin" HeaderText="Check In" SortExpression="checkin" DataFormatString="{0:dd/MM/yyyy}" />
+                        <asp:BoundField DataField="checkout" HeaderText="Check Out" SortExpression="checkout" DataFormatString="{0:dd/MM/yyyy}"/>
                         <asp:BoundField DataField="cost" HeaderText="Coat" SortExpression="cost" />
                     </Columns>
                     <FooterStyle BackColor="#CCCCCC" />
@@ -71,9 +71,14 @@
             <br />
             <br />
             <br />
+            <br /> <br />
             <br />
-
-
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     </form>
 </body>

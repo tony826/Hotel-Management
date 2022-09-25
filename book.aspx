@@ -96,7 +96,7 @@
                     <asp:Label ID="Label6" runat="server" CssClass="auto-style5" Text="Check In Date" ForeColor="Red"></asp:Label>
                     </strong></td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox3" runat="server" Height="34px" TextMode="DateTime" Width="245px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="34px" TextMode="Date" Width="245px"></asp:TextBox>
                 </td>
             </tr>
             <tr>

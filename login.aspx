@@ -30,6 +30,7 @@
             background-image: url("https://source.unsplash.com/1600x900/?indoor");
             height:900px;
             
+            
         }
         .auto-style6 {
             font-size: xx-large;

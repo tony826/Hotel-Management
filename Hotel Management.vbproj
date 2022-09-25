@@ -257,13 +257,18 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
     <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
     <None Include="My Project\PublishProfiles\sahilshaikh-001-site1 - FTP.pubxml" />
+    <None Include="My Project\PublishProfiles\sahilshaikh-001-site1 - FTP1.pubxml" />
+    <None Include="My Project\PublishProfiles\sahilshaikh-001-site1 - FTP2.pubxml" />
     <None Include="My Project\PublishProfiles\sahilshaikh-001-site1 - Web Deploy.pubxml" />
+    <None Include="My Project\PublishProfiles\sahilshaikh-001-site1 - Web Deploy1.pubxml" />
+    <None Include="My Project\PublishProfiles\sahilshaikh-001-site1 - Web Deploy2.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
