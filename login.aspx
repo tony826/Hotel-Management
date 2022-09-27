@@ -5,6 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <script src="packages/jQuery.3.0.0/Content/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <style type="text/css">
         .auto-style1 {
             width: 60%;
@@ -29,6 +32,7 @@
             
             background-image: url("https://source.unsplash.com/1600x900/?indoor");
             height:900px;
+            background-repeat:no-repeat;
             
             
         }
@@ -46,7 +50,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id ="d1">
+        <div id ="container">
             <br />
                         <marquee><h2>Hotel Royal Galaxy</h2></marquee>
             <br />

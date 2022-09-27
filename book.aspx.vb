@@ -15,6 +15,14 @@ Public Class home
     End Function
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim cn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\Documents\hotel.mdf;Integrated Security=True;")
+        Session("nm") = TextBox1.Text
+        Session("mob") = TextBox2.Text
+        Session("rt") = DropDownList1.SelectedValue
+        Session("rn") = DropDownList2.SelectedValue
+        Session("pr") = TextBox5.Text
+        Session("cin") = TextBox3.Text
+        Session("cout") = TextBox4.Text
+
 
         Dim c As Integer = Calc(TextBox3.Text, TextBox4.Text, DropDownList4.SelectedItem.Text)
         TextBox5.Text = c
@@ -32,7 +40,7 @@ Public Class home
         MsgBox("Success")
         cn.Close()
 
-        Response.Redirect("~/home.aspx")
+        Response.Redirect("~/detail.aspx")
     End Sub
 
 End Class

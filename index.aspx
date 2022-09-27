@@ -5,6 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <script src="packages/jQuery.3.0.0/Content/Scripts/jquery-3.0.0.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
 
 <style>
         #div1{
@@ -76,7 +79,7 @@
         <form id="form1" runat="server">
 
         <asp:Button ID="Button1" runat="server" CssClass="auto-style3" ForeColor="#6600CC" Height="55px" Text="Click Here To Login" Width="317px" BorderStyle="None" />
-    <div id="div1" class="auto-style2">
+    <div id="div1" class="container">
         <br />
         <strong>
         <br />

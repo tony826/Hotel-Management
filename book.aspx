@@ -1,20 +1,26 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site1.Master" CodeBehind="book.aspx.vb" Inherits="Hotel_Management.home" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        div{
+        #d2{
             background-image: url("https://source.unsplash.com/1600x900/?indoor");
             background-size:cover;
             /*height:900px;*/
+        }
+        #d1{
+            background-color:cyan;
         }
         
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="auto-style1">
-
-       <marquee> <h2><strong>
+<div id="d1">
+           <marquee> <h2><strong>
             <asp:Label ID="Label1" runat="server" CssClass="auto-style5" ForeColor="Red"></asp:Label>
             </strong></h2></marquee>
+</div>
+    <div class="auto-style1" id="d2">
+
+
         
        
 <!--<img src = "https://source.unsplash.com/1600x900/?rooms" class="img">-->

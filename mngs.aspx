@@ -8,13 +8,14 @@
     <style type="text/css">
         .auto-style1 {
             text-align: center;
+            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-size:cover;
+            background-repeat:no-repeat;
         }
         .auto-style2 {
             margin-left: 344px;
         }
-        div{
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
-        }
+        
     </style>
 </head>
 <body>
