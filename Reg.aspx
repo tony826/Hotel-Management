@@ -36,11 +36,11 @@
             font-size: xx-large;
             background-color: transparent;
         }
-        div{
+        #reg{
             
-            background-image: url("https://source.unsplash.com/1600x900/?hotel");
+            background-image: url("homebg.jpg");
             background-size:cover;
-            
+            height:100vh;
             background-repeat:no-repeat;
         }
         .txt{
@@ -61,6 +61,7 @@
         
         .auto-style9 {
             font-size: xx-large;
+            color:blanchedalmond;
         }
         .auto-style10 {
             border: 5px solid black;
@@ -69,7 +70,7 @@
             font-size: xx-large;
         }
         h1{
-            color:red;
+            color:blanchedalmond;
         }
         </style>
   
@@ -78,7 +79,7 @@
     </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="reg">
             <br />
                         <marquee><h1>Hotel Royal Galaxy</h1></marquee>
             <br />
@@ -87,7 +88,7 @@
                 <tr>
                     <td class="auto-style4">
                         <strong>
-                        <asp:Label ID="Label1" runat="server" Text="Username" ForeColor="Red" CssClass="auto-style9"></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text="Username" ForeColor="blanchedalmond" CssClass="auto-style9"></asp:Label>
                             </strong>
                     </td>
                     <td class="auto-style5">
@@ -96,28 +97,28 @@
                         </strong>&nbsp;
                         &nbsp; 
                         <strong> 
-                        <asp:Label ID="Label6" runat="server" CssClass="auto-style9" ForeColor="Red"></asp:Label>
-                        <asp:Button ID="Button3" runat="server" CssClass="auto-style8" Height="57px" Text="Check Username" Width="266px" ForeColor="Red" />
+                        <asp:Label ID="Label6" runat="server" CssClass="auto-style9" ForeColor="blanchedalmond"></asp:Label>
+                        <asp:Button ID="Button3" runat="server" CssClass="auto-style8" Height="57px" Text="Check Username" Width="266px" ForeColor="blanchedalmond" />
                         </strong>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">
                         <strong>
-                        <asp:Label ID="Label2" runat="server" Text="Email" ForeColor="Red" CssClass="auto-style9"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="Email" ForeColor="blanchedalmond" CssClass="auto-style9"></asp:Label>
                         </strong>
                     </td>
                     <td class="auto-style5">
                         <strong>
                         <asp:TextBox ID="TextBox2" runat="server" Height="35px" Width="250px" TextMode="Email" CssClass="auto-style10"></asp:TextBox>
-                        </strong>&nbsp;<strong><asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="Enter email in valid format" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" CssClass="auto-style9"></asp:RegularExpressionValidator>
+                        </strong>&nbsp;<strong><asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox2" ErrorMessage="Enter email in valid format" ForeColor="blanchedalmond" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" CssClass="auto-style9"></asp:RegularExpressionValidator>
                         </strong>&nbsp;<br />
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">
                         <strong>
-                        <asp:Label ID="Label3" runat="server" Text="Password" ForeColor="Red" CssClass="auto-style9"></asp:Label>
+                        <asp:Label ID="Label3" runat="server" Text="Password" ForeColor="blanchedalmond" CssClass="auto-style9"></asp:Label>
                         </strong>
                     </td>
                     <td class="auto-style5">
@@ -128,20 +129,20 @@
                 <tr>
                     <td class="auto-style4">
                         <strong>
-                        <asp:Label ID="Label5" runat="server" Text=" Confirm Password" ForeColor="Red" CssClass="auto-style9"></asp:Label>
+                        <asp:Label ID="Label5" runat="server" Text=" Confirm Password" ForeColor="blanchedalmond" CssClass="auto-style9"></asp:Label>
                         </strong>
                     </td>
                     <td class="auto-style5">
                         <strong>
                         <asp:TextBox ID="TextBox5" runat="server" Height="35px" Width="250px" TextMode="Password" CssClass="auto-style10"></asp:TextBox>
-                        </strong>&nbsp;&nbsp;<strong><asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox3" ControlToValidate="TextBox5" ErrorMessage="Enter Same Password" ForeColor="Red" CssClass="auto-style9"></asp:CompareValidator>
+                        </strong>&nbsp;&nbsp;<strong><asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox3" ControlToValidate="TextBox5" ErrorMessage="Enter Same Password" ForeColor="blanchedalmond" CssClass="auto-style9"></asp:CompareValidator>
                         </strong>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">
                         <strong>
-                        <asp:Label ID="Label4" runat="server" Text="Mobile" ForeColor="Red" CssClass="auto-style9"></asp:Label>
+                        <asp:Label ID="Label4" runat="server" Text="Mobile" ForeColor="blanchedalmond" CssClass="auto-style9"></asp:Label>
                         </strong>
                     </td>
                     <td class="auto-style5">
@@ -152,12 +153,12 @@
                 <tr>
                     <td class="auto-style4">
                         <h1>
-                        <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="auto-style7" ForeColor="Red" />
+                        <asp:Button ID="Button1" runat="server" Text="Submit" CssClass="auto-style7" ForeColor="blanchedalmond" />
                             </h1>
                     </td>
                     <td class="auto-style5">
                         <h1>
-                        <asp:Button ID="Button2" runat="server" Text="Log In" CssClass="auto-style6" ForeColor="Red" />
+                        <asp:Button ID="Button2" runat="server" Text="Log In" CssClass="auto-style6" ForeColor="blanchedalmond" />
                             </h1>
                     </td>
                 </tr>

@@ -5,9 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <script src="packages/jQuery.3.0.0/Content/Scripts/jquery-3.0.0.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    
 
 <style>
         #div1{
@@ -16,7 +14,7 @@
             height:100%;
             width:auto;
             background-repeat:no-repeat;
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-image: url("indexbg.jpg");
             background-size:cover;
             display:flex;
             padding:80px;
@@ -73,13 +71,17 @@
         background-color:transparent;
         margin-left: 516px;
     }
+    #sp1{
+        background-color:lightcyan;
+    }
+    
     </style>
 </head>
     <body>
         <form id="form1" runat="server">
 
-        <asp:Button ID="Button1" runat="server" CssClass="auto-style3" ForeColor="#6600CC" Height="55px" Text="Click Here To Login" Width="317px" BorderStyle="None" />
-    <div id="div1" class="container">
+        <div id="sp1"><asp:Button ID="Button1" runat="server" CssClass="auto-style3" ForeColor="#6600CC" Height="55px" Text="Click Here To Login" Width="317px" BorderStyle="None" /></div>
+    <div id="div1">
         <br />
         <strong>
         <br />
@@ -91,10 +93,7 @@
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            
             <asp:Label ID="Label1" runat="server" CssClass="auto-style1" ForeColor="aqua" Text="Standard"></asp:Label>
         </strong>
 
@@ -102,10 +101,6 @@
         <div id="div3">
             
             <strong>
-            <br />
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />
@@ -119,11 +114,6 @@
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            
             <asp:Label ID="Label3" runat="server" CssClass="auto-style1" ForeColor="#def702" Text="Luxurious"></asp:Label>
             </strong>
 

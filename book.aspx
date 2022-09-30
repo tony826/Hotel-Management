@@ -2,26 +2,27 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         #d2{
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-image: url("bookbg.jpg");
             background-size:cover;
             /*height:900px;*/
         }
         #d1{
-            background-color:cyan;
+            background-color:antiquewhite;
         }
         
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div id="d1">
+    <div id="d1">
            <marquee> <h2><strong>
-            <asp:Label ID="Label1" runat="server" CssClass="auto-style5" ForeColor="Red"></asp:Label>
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style5" ForeColor="darkcyan"></asp:Label>
             </strong></h2></marquee>
 </div>
     <div class="auto-style1" id="d2">
 
 
-        
+        <br />
+        <br />
        
 <!--<img src = "https://source.unsplash.com/1600x900/?rooms" class="img">-->
         

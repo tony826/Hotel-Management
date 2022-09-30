@@ -4,18 +4,22 @@
 
 <html>
 <head runat="server">
-    <title>RoyalGalaxy</title>
+    <title>Royal Galaxy</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
             font-size: x-large;
         }
+        #d1{
+            position:static;
+            background-color:antiquewhite;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div id="d1">
 
             <br />
                         <marquee><h2>Hotel Royal Galaxy</h2></marquee>
@@ -27,9 +31,11 @@
                 <Items>
                     <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/home.aspx"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/book.aspx" Text="Book Rooms" Value="Book Rooms"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/detail.aspx" Text="Details" Value="Details"></asp:MenuItem>
                     <asp:MenuItem Text="Change Password" Value="Change Password" NavigateUrl="~/edit.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Log Out" Value="Log Out" NavigateUrl="~/login.aspx"></asp:MenuItem>
                 </Items>
+                <StaticHoverStyle BackColor="#33CCCC" />
                 <StaticMenuItemStyle HorizontalPadding="55px" ItemSpacing="80px" />
                 <StaticMenuStyle HorizontalPadding="35px" VerticalPadding="10px" />
             </asp:Menu>

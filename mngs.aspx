@@ -8,7 +8,7 @@
     <style type="text/css">
         .auto-style1 {
             text-align: center;
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-image: url("mngs.jpg");
             background-size:cover;
             background-repeat:no-repeat;
         }
@@ -48,6 +48,8 @@
 
         <br />
                 <div class="auto-style1">
+        <br />
+        <br />
                     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" CssClass="auto-style2" DataKeyNames="Id" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Height="501px" Width="689px">
                         <AlternatingRowStyle BackColor="White" />
                         <Columns>

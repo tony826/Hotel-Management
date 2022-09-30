@@ -8,11 +8,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <style type="text/css">
+        mm<style type="text/css">
 
         body{
             font-family: 'Brush Script MT';
             font-size :x-large;
+
         }
         .auto-style1 {
             width: 50%;
@@ -44,7 +45,10 @@
             
         }
         #edit{
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            background-image: url("chng1.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            
         }
     .auto-style8 {
         text-align: center;
@@ -53,10 +57,9 @@
     .auto-style9 {
         height: 73px;
     }
-    </style>
-    <div id="edit">
+    </style><div id="edit">
         &nbsp;<br />
-       <marquee> <h2 class="auto-style2">
+       <marquee > <h2 class="auto-style2">
             <strong>
             <asp:Label ID="Label1" runat="server" CssClass="auto-style8" ForeColor="Red"></asp:Label>
             </strong></h2></marquee>

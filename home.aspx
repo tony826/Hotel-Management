@@ -10,7 +10,7 @@
             height:100%;
             width:auto;
             background-repeat:no-repeat;
-            background-image: url("https://source.unsplash.com/1600x900/?hotels");
+            background-image: url("homebg.jpg");
             background-size:cover;
             display:flex;
             padding:80px;

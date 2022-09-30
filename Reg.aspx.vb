@@ -41,4 +41,7 @@ Public Class Reg
 
     End Sub
 
+    Protected Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        MyFunc()
+    End Sub
 End Class

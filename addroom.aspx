@@ -30,8 +30,10 @@
         .auto-style5 {
             font-size: xx-large;
         }
-        s1{
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+        .s1{
+            background-image: url("deluxe.jpg");
+            background-size:cover;
+            height:100vh;
         }
     </style>
 </head>
@@ -52,7 +54,7 @@
                 <br />
             <marquee><h2>Hotel Royal Galaxy</h2></marquee>
             <h2><strong>
-              <mariquee> <asp:Label ID="Label1" runat="server"></asp:Label></mariquee> 
+              <mariquee>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label></mariquee> 
                 </strong></h2>
             <table align="center" class="auto-style1">
                 <tr>

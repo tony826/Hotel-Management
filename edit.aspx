@@ -36,7 +36,8 @@
             
         }
         #edit{
-            background-image: url("https://source.unsplash.com/1600x900/?indoor");
+            /*background-image: url("https://source.unsplash.com/1600x900/?indoor");*/
+            background-image:url("chng1.jpg");
         }
     .auto-style8 {
         text-align: center;

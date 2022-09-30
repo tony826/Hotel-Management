@@ -7,21 +7,16 @@ Public Class home
         Label1.Text = "Hello " + Session("unm")
     End Sub
     Public Function Calc(chin As Date, chout As Date, p As Integer) As Integer
-
-        Dim dt = chout - chin
-        Dim days As Integer = dt.TotalDays
+        Date.Parse(chout)
+        chout = DateAdd("d", 1, chout)
+        Dim dt1 = chout - chin
+        Dim days As Integer = dt1.TotalDays
         Dim cost As Integer = days * p
         Return cost
     End Function
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim cn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\Documents\hotel.mdf;Integrated Security=True;")
-        Session("nm") = TextBox1.Text
-        Session("mob") = TextBox2.Text
-        Session("rt") = DropDownList1.SelectedValue
-        Session("rn") = DropDownList2.SelectedValue
-        Session("pr") = TextBox5.Text
-        Session("cin") = TextBox3.Text
-        Session("cout") = TextBox4.Text
+
 
 
         Dim c As Integer = Calc(TextBox3.Text, TextBox4.Text, DropDownList4.SelectedItem.Text)
